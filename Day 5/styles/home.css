@@ -1,0 +1,41 @@
+.nav
+{
+    display: flex;
+}
+.nav1
+{
+    float: left;
+    /* position:'relative'; */
+    top:'-10px';
+    padding-left: 30px;
+}
+.nav2
+{
+    float: right;
+    
+}
+.nav-tabs
+{
+    position:'relative';
+    top:'-50px';
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+    width: 70vw;
+    justify-content: end;
+}
+.link-active
+{
+    color: rgb(186, 39, 39);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-active:hover
+{
+    background-color:darkgray;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
