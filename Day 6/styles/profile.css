@@ -1,0 +1,35 @@
+body
+{
+    overflow: hidden;
+}
+.profile
+{
+    display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.head1,.head2,.head3
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  
+}
+.head1
+{
+    /* margin-bottom: 50%; */
+    text-align: center;
+}
+.head2
+{
+
+    background-image: url('../assets/profile.png');
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.head3
+{
+    font-size: large;
+}

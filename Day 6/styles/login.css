@@ -1,0 +1,43 @@
+.all {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url("../assets/login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container, .fregister, .flogin{
+  display: flex;
+  flex-direction: column;
+}
+boby{
+  overflow: hidden;
+}
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+}
+input,select{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button{
+  border: none;
+  background-color:green;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;;
+}
+.link{
+  background:none;
+  color:#46009c; 
+  text-decoration: underline;
+ }
