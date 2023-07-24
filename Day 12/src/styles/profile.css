@@ -1,0 +1,21 @@
+body
+{
+    overflow: hidden;
+}
+.profile
+{
+    display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #2980B9;
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  
+}
+.head1
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+.emp-row
+{
+    height: 100vh;
+    overflow-y: auto;
+}
+.form-groupcol-md-4{
+    border-color: black;
+    background-color: rgb(201, 229, 241);
+    padding: 3%;
+    width: 50%;
+    padding-left: 10%;
+    margin-left: 18%;
+    box-shadow: 8px 8px rgb(213, 211, 211);
+    border-radius: 1%;
+}
