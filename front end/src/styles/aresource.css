@@ -1,0 +1,60 @@
+.emp-entire{
+  background-color: aliceblue;
+  height:100vh;
+  overflow-y: auto;
+}
+.emp-header{
+  /* background-color: aliceblue; */
+  height: 7vh;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.emp-input{
+  background-color: rgb(203, 255, 238);
+  width: 40%;
+  margin-left: 28%;
+  padding-left: 5%;
+}
+.emp-inputbox{
+  height: 4vh;
+  width: 30%;
+}
+.emp-button{
+  height:5vh;
+  width:17%;
+  background-color: green;
+  border: green;
+}
+.emp-th{
+  background-color: rgb(183, 182, 182);
+}
+.emp-td{
+  background-color: rgb(219, 219, 220);
+}
+
+/* .form-groupcol-md-4{
+  border-color: black;
+  background-color: rgb(247, 247, 247);
+
+  padding: 3%;
+  width: 40%;
+  padding-left: 8%;
+  margin-left: 24%;
+  box-shadow: 8px 8px rgb(213, 211, 211);
+  border-radius: 1%;
+}
+.emp-row{
+  background-color: rgb(61, 44, 101);
+  width: 100%;
+  height:auto;
+}
+.mt-3mb-4fw-bold{
+  font-size: xx-large;
+  font-weight: bold;
+}
+.emp-entire{
+  background-color: rgb(61, 44, 101);
+  width: 100%;
+  height:100vh;
+} */

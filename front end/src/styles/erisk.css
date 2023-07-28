@@ -1,0 +1,35 @@
+.risk-entire{
+    background-color: aliceblue;
+    height:100vh;
+    overflow-y: auto;
+  }
+  .risk-header{
+    /* background-color: aliceblue; */
+    height: 7vh;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  .risk-input{
+    background-color: rgb(203, 255, 238);
+    width: 40%;
+    margin-left: 28%;
+    padding-left: 5%;
+  }
+  .risk-inputbox{
+    height: 4vh;
+    width: 30%;
+  }
+  .risk-button{
+    height:5vh;
+    width:17%;
+    background-color: green;
+    border: green;
+  }
+  .risk-th{
+    background-color: rgb(183, 182, 182);
+  }
+  .risk-td{
+    background-color: rgb(219, 219, 220);
+  }
+  

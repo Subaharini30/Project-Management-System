@@ -1,0 +1,74 @@
+body
+{
+  overflow: hidden;
+}
+.nav
+{
+    display: flex;
+    margin-left: 60px;
+}
+.nav2
+{
+    float: right;
+    top:'-10px';
+    padding-left: 250px;
+}
+.nav-tabs
+{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+    width: 70vw;
+    font-size: 20px;
+    justify-content: end;
+}
+.link-active
+{
+    color:white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-active:hover
+{
+    background-color:darkgray;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+#neon
+{
+   
+ color: white;
+ text-shadow: 0 0 2px rgba(202, 228, 225, 0.92),
+     0 0 10px rgba(202, 228, 225, 0.34), 0 0 4px rgba(30, 132, 242, 0.52),
+     0 0 7px rgba(30, 132, 242, 0.92), 0 0 11px rgba(30, 132, 242, 0.78),
+     0 0 16px rgba(30, 132, 242, 0.92);
+}
+.body
+{
+    color: aliceblue;
+    background-image: url("../assets/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+}
+.content
+{
+    margin-bottom: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    font-size: 1.2em
+}
+.list
+{
+    margin-left:10%;
+    margin-right: 10%;
+}
+.footer
+{
+    margin-top: 5%;
+    margin-right: 40%;
+}

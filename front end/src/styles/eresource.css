@@ -1,0 +1,19 @@
+.eprotable{
+    background: #FFEFBA;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA); 
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    color: black;
+    border: solid black 1px;
+    height: 35vh;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.eprotd{
+    border: solid black 1px
+}
+/* .eproth{
+border: solid whitesmoke 2px;
+} */

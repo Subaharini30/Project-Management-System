@@ -1,0 +1,90 @@
+/* .task-entire{
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(253, 237, 243);
+  }
+  .task-header{
+    height: 8vh;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  .task-body{
+    height: 90vh;
+    margin-right: 1.5%;
+    
+  }
+  .task-left{
+    width: 35%;
+    height: 95vh;
+    float: left;
+  }
+  .task-right{
+    width: 63%;
+    height: 85vh;
+    float: right;
+    margin-top:1.2%;
+    margin-right: 0%;
+    padding-left: 0%;
+  }
+  .task-input{
+    margin-left: 4%;
+    padding-left: 18%;
+    height: 85vh;
+  }
+  .task-inputbox{
+    width: 70%;
+    height: 4vh;
+  }
+  .task-button{
+    background-color: green;
+    height: 5vh;
+    border: green;
+    width: 40%;
+  }
+  .task-th{
+    background-color: rgb(183, 182, 182);
+  }
+  .task-td{
+    background-color: rgb(219, 219, 220);
+  }
+  .res-h2{
+    font-size: x-large;
+    font-weight: bold;
+  }
+   */
+   .task-entire{
+    background-color: aliceblue;
+    height:100vh;
+    overflow-y: auto;
+  }
+  .task-header{
+    /* background-color: aliceblue; */
+    height: 7vh;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  .task-input{
+    background-color: rgb(203, 255, 238);
+    width: 40%;
+    margin-left: 28%;
+    padding-left: 5%;
+  }
+  .task-inputbox{
+    height: 4vh;
+    width: 30%;
+  }
+  .task-button{
+    height:5vh;
+    width:17%;
+    background-color: green;
+    border: green;
+  }
+  .task-th{
+    background-color: rgb(183, 182, 182);
+  }
+  .task-td{
+    background-color: rgb(219, 219, 220);
+  }

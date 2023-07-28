@@ -1,0 +1,87 @@
+/* Default styles for all screen sizes */
+.main {
+  color: black;
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  background-image: url("../assets/main.jpg");
+}
+
+.maincon {
+  background: rgb(157, 230, 255);
+  padding: 20px;
+  margin-left: 65%;
+}
+
+.maincon h1 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 2;
+  animation: neon 0.08s ease-in-out infinite alternate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.role-selection {
+  margin-top: 50px;
+  margin-bottom: 20%;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.role_btns {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.role_btns:hover {
+  background-color: green;
+  color: #282c34;
+}
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .maincon {
+    margin-left: 0;
+  }
+
+  .role-selection {
+    margin-bottom: 10%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .main {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .maincon {
+    margin-left: 50%;
+  }
+
+  .role-selection {
+    margin-bottom: 15%;
+  }
+}
+@media screen and (min-width: 1025px) {
+
+}

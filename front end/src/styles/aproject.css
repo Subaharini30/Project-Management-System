@@ -1,0 +1,12 @@
+.form-groupcol-md-4{
+    border-color: black;
+    background: #649173; 
+    background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  
+    background: linear-gradient(to right, #DBD5A4, #649173);     
+    padding: 3%;
+    width: 50%;
+    padding-left: 10%;
+    margin-left: 18%;
+    box-shadow: grey;
+    border-radius:1%;
+}

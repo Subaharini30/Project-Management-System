@@ -1,0 +1,52 @@
+.res-entire{
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  background-color: powderblue;
+}
+.res-header{
+  height: 8vh;
+  text-align: center;
+}
+.res-body{
+  height: 90vh;
+  margin-right: 1.5%;
+  
+}
+.res-left{
+  width: 35%;
+  height: 95vh;
+  float: left;
+}
+.res-right{
+  width: 63%;
+  height: 80vh;
+  float: right;
+  margin-right: 0%;
+  /* margin-left: 2%; */
+}
+.res-input{
+  margin-left: 14%;
+  padding-left: 18%;
+  height: 80vh;
+}
+.res-inputbox{
+  width: 70%;
+  height: 4vh;
+}
+.res-button{
+  background-color: green;
+  height: 5vh;
+  border: green;
+  width: 40%;
+}
+.res-th{
+  background-color: rgb(183, 182, 182);
+}
+.res-td{
+  background-color: rgb(219, 219, 220);
+}
+.res-h2{
+  font-size: x-large;
+  font-weight: bold;
+}
